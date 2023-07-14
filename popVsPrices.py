@@ -1,6 +1,6 @@
 import matplotlib.pyplot as pt
 
-spamreader = pd.read_csv('/Users/serkanaymaz/Downloads/world_pop.csv', index_col = 'Country Name')
+spamreader = pd.read_csv('world_pop.csv', index_col = 'Country Name')
 
 world_pop = spamreader.loc['World'].values.tolist()
 world_pop = world_pop[3:-1]
