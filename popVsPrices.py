@@ -1,11 +1,10 @@
 import matplotlib.pyplot as pt
+import pandas as pd
 
 spamreader = pd.read_csv('world_pop.csv', index_col = 'Country Name')
 
 world_pop = spamreader.loc['World'].values.tolist()
 world_pop = world_pop[3:-1]
-
-print(world_pop)
 
 years = []
 for i in range(1960, 2023):
