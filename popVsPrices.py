@@ -10,10 +10,6 @@ print(world_pop)
 years = []
 for i in range(1960, 2023):
     years.append(i)
-  
-print(years)
-print(len(world_pop))
-print(len(years))
 
 pt.plot(years, world_pop)
 pt.title("World Population From 1960-2022")
