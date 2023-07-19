@@ -21,9 +21,7 @@
 8. Github Repository Link:
 -	https://github.com/RunDMC2/DCygul-YSP-PythonProjs
 9. Considerations:
- 	Data Limitations:
-Not all data for the fruits and vegetables span for the same time. For example, the orange data is from 1980 to 2023, while the carrot data is from 1980 to 2014.
+- Data Limitations: Not all data for the fruits and vegetables span for the same time. For example, the orange data is from 1980 to 2023, while the carrot data is from 1980 to 2014.
 Since our data is an average, it may not be perfectly representative of different places.
-  Visualization Choices:
-Most of the graphs are line graphs, which may not be the best choice when there’s many values. A scatter plot may have shown the data trends better since it shows exact points.
+- Visualization Choices: Most of the graphs are line graphs, which may not be the best choice when there’s many values. A scatter plot may have shown the data trends better since it shows exact points.
 
